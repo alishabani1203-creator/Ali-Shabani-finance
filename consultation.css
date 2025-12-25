@@ -1,0 +1,27 @@
+.consultation-form {
+    max-width: 500px;
+    margin: 0 auto 60px;
+}
+
+.consultation-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.consultation-form input,
+.consultation-form textarea {
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+.consultation-form button {
+    background: #0A1A2F;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
